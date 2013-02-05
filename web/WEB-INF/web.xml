@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	 xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	 version="3.0">
+    <servlet>
+        <servlet-name>RectangleController</servlet-name>
+        <servlet-class>controller.RectangleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RectangleController</servlet-name>
+        <url-pattern>/rectangle</url-pattern>
+    </servlet-mapping><servlet>
+        <servlet-name>CircleController</servlet-name>
+        <servlet-class>controller.CircleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CircleController</servlet-name>
+        <url-pattern>/circle</url-pattern>
+    </servlet-mapping><servlet>
+        <servlet-name>TriangleController</servlet-name>
+        <servlet-class>controller.TriangleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TriangleController</servlet-name>
+        <url-pattern>/triangle</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
