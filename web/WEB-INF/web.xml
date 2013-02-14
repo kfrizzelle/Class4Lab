@@ -11,14 +11,41 @@
     <servlet-mapping>
         <servlet-name>RectangleController</servlet-name>
         <url-pattern>/rectangle</url-pattern>
-    </servlet-mapping><servlet>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>RectangleController2</servlet-name>
+        <servlet-class>controller.RectangleController2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RectangleController2</servlet-name>
+        <url-pattern>/rectangle2</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
         <servlet-name>CircleController</servlet-name>
         <servlet-class>controller.CircleController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>CircleController</servlet-name>
         <url-pattern>/circle</url-pattern>
-    </servlet-mapping><servlet>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>CircleController2</servlet-name>
+        <servlet-class>controller.CircleController2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CircleController2</servlet-name>
+        <url-pattern>/circle2</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
+    <servlet>
         <servlet-name>TriangleController</servlet-name>
         <servlet-class>controller.TriangleController</servlet-class>
     </servlet>
@@ -26,6 +53,19 @@
         <servlet-name>TriangleController</servlet-name>
         <url-pattern>/triangle</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>TriangleController2</servlet-name>
+        <servlet-class>controller.TriangleController2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>TriangleController2</servlet-name>
+        <url-pattern>/triangle2</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    
     <session-config>
         <session-timeout>
             30

@@ -44,9 +44,9 @@
             Please enter the length of side A:<input type="text" name="sidea"/><br />
             Please enter the length of side B:<input type="text" name="sideb"/><br />
             Please enter the length of side C:<input type="text" name="sidec"/><br />
-            <input type="submit" name="triangle" value="Calculate"/>                                           
+            <input type="submit" name="triangle" value="Calculate"/><br />                                           
         </form>
-        
+        <p><a href="index.jsp">Return to Home Page</a></p>
         
     </body>
 </html>
